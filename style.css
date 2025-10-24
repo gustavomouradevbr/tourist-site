@@ -1,0 +1,59 @@
+:root {
+font-family: "Open Sans", sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#local {
+    width: 1120px;
+    margin: 88px auto;
+
+}
+
+.conheça h3,
+.conheça h2 {
+
+margin-bottom: 8px;
+
+}
+
+.conheça h2,
+.conheça img {
+
+margin-bottom: 40px;
+
+}
+
+
+
+h3 {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+#roxo {
+    color: blueviolet;
+}
+
+#rosa {
+    color: palevioletred;
+}
+
+#laranja {
+    color: orange;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+
