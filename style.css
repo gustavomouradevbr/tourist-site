@@ -6,6 +6,8 @@ font-family: "Open Sans", sans-serif;
 body {
     margin: 0;
     padding: 0;
+
+    box-sizing: border-box;
 }
 
 #local {
@@ -14,7 +16,7 @@ body {
 
 }
 
-.conheça h3,
+.conheça h3, /*Começo da 1 section */
 .conheça h2 {
 
 margin-bottom: 8px;
@@ -30,7 +32,7 @@ margin-bottom: 24px;
 
 }
 
-.conheça p {
+.conheça p {  /*Fim da 1 section */
 
 text-align: center;
 
@@ -39,7 +41,58 @@ max-width: 100%;
 }
 
 
+.Descubra h3, /*Começo da 2 section */
+.Descubra h1 {
 
+        margin-bottom: 2px;
+
+
+    }
+
+.Descubra h1, /*Fim da 2 section */
+.Descubra p {
+    margin-bottom: 8px;
+}
+
+.TemploHAE h1, /*Começo da 3 section */
+.TemploHAE p {
+
+    margin-bottom: 4px;
+
+
+}  
+
+#hr1 {
+  margin-top: 40px; /*Sem o shorthand*/
+  margin-right: 0;
+  margin-bottom: 64px;
+  margin-left: 0;
+
+/*Versão com o shorthand: margin: 40px 0 64px;*/
+}
+
+#hr2 {
+  margin-top: 40px; /*Sem o shorthand*/
+  margin-right: 0;
+  margin-bottom: 40px;
+  margin-left: 0;
+
+/*Versão com o shorthand: margin: 40px 0 40px;*/
+}
+
+#img2 {
+    margin: 64px 0 20px;
+}
+
+
+#img3 {
+    margin: 48px 0 20px;
+
+}
+#img4 {
+    margin: 48px 0 20px;
+
+}
 
 h3 {
     color: red;
