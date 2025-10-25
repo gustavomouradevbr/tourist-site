@@ -114,6 +114,14 @@ h3 {
     color: orange;
 }
 
+h4 {
+  margin-bottom: 0; 
+}
+
+h4 + ul {
+  margin-top: 4px; 
+}
+
 footer {
     text-align: center;
 }
